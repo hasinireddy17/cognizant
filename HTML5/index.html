@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal</title>
+    <style>
+        #welcomeBanner
+        {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+        }
+        .highlight
+        {
+            background-color: yellow;
+        }
+        .eventImage
+        {
+            border: 3px solid black;
+            padding: 5px;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            transition: 0.3s;
+            cursor: pointer;
+            display: block;
+            margin: auto;
+        }
+        table
+        {
+            margin: auto;
+            border-spacing: 10px;
+        }
+        td
+        {
+            text-align: center;
+            padding: 15px;
+            border: 2px solid black;
+            overflow: visible;
+        }
+        h1,h2,h3
+        {
+            text-align: center;
+        }
+        nav
+        {
+            text-align: center;
+        }
+        form
+        {
+            width: 400px;
+            padding: 20px;
+            margin: auto;
+            border: 2px solid black;
+
+        }
+        input,select,textarea
+        {
+            width: 90%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        video
+        {
+            display: block;
+            margin: auto;
+        }
+    footer
+    {
+        text-align: center;
+        background-color: lightgray;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    </style>
+</head>
+
+<body>
+
+
+
+    <!--Navigation-->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+
+    <!--Main-->
+    <section id="home">
+        <h1> Welcome to Local Community Event Portal</h1>
+        <div id="welcomeBanner">
+            Welcome back , Resident
+        </div>
+        <p>
+            Special Offer:
+            <span style="color: red;font-weight:bold;">
+                Free Entry for first 50 registrations!
+            </span>
+        </p>
+    </section>
+    <section id="events">
+        <h2> Events </h2>
+        <p class="highlight">
+            Community Music Festival this weekend
+        </p>
+        <h3>Past Event Gallery</h3>
+        <table border="2">
+            <tr>
+                <td>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDdeKJ9wmif-GrxnNHy4iz9QuWEuIZfpJiA&s" alt="Music Event" title="Community Music Festival" class="eventImage"
+                        ondblclick="
+                                    if(this.style.width=='400px'){
+                                    this.style.width='300px';
+                                    this.style.height='200px';
+                                    }
+                                    else{
+                                    this.style.width='400px';
+                                    this.style.height='250px';
+                                    }">
+                    <p>Community Music Festival</p>
+                </td>
+                <td>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfWJEwMP6cWwTj86Rsa06yHbqBsydBX6cHcw&s" alt="Sports Event" title="Community Sports Festival" class="eventImage"
+                    ondblclick="
+                                    if(this.style.width=='400px'){
+                                    this.style.width='300px';
+                                    this.style.height='200px';
+                                    }
+                                    else{
+                                    this.style.width='400px';
+                                    this.style.height='250px';
+                                    }">
+                    <p>Community Sports Festival</p>
+                </td>
+                <td> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwTOP-xfRnUQpLaLR2YHt3xmZN0ThOjVpYJw&s" alt="Dance Event" title="Community Dance Festival" class="eventImage"
+                    ondblclick="
+                                    if(this.style.width=='400px'){
+                                    this.style.width='300px';
+                                    this.style.height='200px';
+                                    }
+                                    else{
+                                    this.style.width='400px';
+                                    this.style.height='250px';
+                                    }">
+                    <p>Community Dance Event</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAEELKyESLA2GKf1GVbzc5UldMOynwEobGSg&s" alt="Food Event" title="Community Food Festival" class="eventImage"
+                    ondblclick="
+                                    if(this.style.width=='400px'){
+                                    this.style.width='300px';
+                                    this.style.height='200px';
+                                    }
+                                    else{
+                                    this.style.width='400px';
+                                    this.style.height='250px';
+                                    }">
+                    <p>Community Food Festival</p>
+                </td>
+                <td>
+                    <img src="https://tccidaho.org/wp-content/uploads/2024/06/Art-Craft-Time-FB-Event.jpg" alt="Art and Crafts Event" title="Community Art & Crafts Festival" class="eventImage"
+                    ondblclick="
+                                    if(this.style.width=='400px'){
+                                    this.style.width='300px';
+                                    this.style.height='200px';
+                                    }
+                                    else{
+                                    this.style.width='400px';
+                                    this.style.height='250px';
+                                    }">
+                    <p>Community Art and Crafts Festival</p>
+                </td>
+                <td> 
+                    <img src="https://www.yogateacherstrainingrishikesh.com/wp-content/uploads/2026/02/200-Hour-Yoga-Teacher-Training-in-India-650x433.png" alt="Yoga Event" title="Community Yoga Festival" class="eventImage"
+                    ondblclick="
+                                    if(this.style.width=='400px'){
+                                    this.style.width='300px';
+                                    this.style.height='200px';
+                                    }
+                                    else{
+                                    this.style.width='400px';
+                                    this.style.height='250px';
+                                    }">
+                    <p>Community Yoga Event</p>
+                </td>
+            </tr>
+        </table>
+        <h3>Event Registration Form</h3>
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required autofocus>
+            <br><br>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+            <br> <br>
+
+            <label>Phone Number</label>
+            <input type="text" onblur="alert('Phone number Validated')">
+            <br><br>
+
+            <label>Event Date</label>
+            <input type="date" required>
+            <br> <br>
+
+            <label>Event type</label>
+            <select id="eventType" required onchange="alert('Event fee is 500/-'); savePreference()">
+                <option>Music Festival</option>
+                <option>Sports Event</option>
+                <option>Dance Event</option>
+                <option>Food Event</option>
+                <option>Art and Crafts Event</option>
+                <option>Yoga Event</option>
+            </select>
+            <br> <br>
+            
+            <label>Message:</label>
+            <br>
+            <textarea rows="5" cols="50" placeholder="Enter your message" onkeyup="countCharacters()" id="feedback"></textarea>
+            <p id="charCount">
+                Characters:0
+            </p>
+            <br><br>
+
+            <button type="button" onclick="alert('Registration Successful')">
+                Register
+            </button>
+            <button onclick="alert('Successful')">
+                Test Click Event
+            </button>
+            <button type="button" onclick="clearLocalPreference()">
+                Clear Local Preference
+            </button>
+            <button type="button" onclick="clearSessionPreference()">
+                Clear Session Preference
+            </button>
+            <br><br>
+
+            <output>Registration Successful!</output>
+
+            <button type="button" onclick="findLocation()">
+                Find Nearby Devices
+            </button>
+            <p id="location"></p>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Need Help?
+            <a href="help.html" target="_blank">Open Help Page</a>
+        </p>
+    </section>
+
+    <section id="videoInvite">
+        <h2>Event Promo Video</h2>
+        <!--oncanplay="alert('Video ready to play')"-->
+        <video controls width="600">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2025 Local Community Event Portal</p>
+    </footer>
+
+    <script>
+        function countCharacters()
+        {
+            let text=document.getElementById("feedback").value;
+            document.getElementById("charCount").innerHTML="Characters:"+text.length;
+        }
+        window.onbeforeunload=function()
+        {
+            return("Are you sure you want to leave?");
+        }
+        window.onload=function()
+        {
+            let savedEvent=localStorage.getItem("preferredEvent");
+
+            if(savedEvent)
+                {
+                    document.getElementById("eventType").value=savedEvent;
+
+                    alert("Previously selected event loaded: " + savedEvent);
+                }
+        }
+        function savePreference()
+        {
+            let selectedEvent=document.getElementById("eventType").value;
+            console.log("Selected Event:", selectedEvent);
+            localStorage.setItem("preferredEvent",selectedEvent);
+            sessionStorage.setItem("currentSessionEvent",selectedEvent);
+            alert("Preference saved: "+selectedEvent);
+
+        }
+        
+        function clearLocalPreference()
+        {
+            localStorage.removeItem("preferredEvent");
+            alert("Local preference cleared");
+        }
+
+        function clearSessionPreference()
+        {
+            sessionStorage.removeItem("currentSessionEvent");
+            alert("Session preference cleared");
+        }
+
+        function findLocation()
+        {
+            if(navigator.geolocation)
+            {
+                navigator.geolocation.getCurrentPosition(
+                    showPosition,
+                    showError,
+                    {
+                        enableHighAccuracy:true,
+                        timeout:5000,
+                        maximumAge:0
+                    }
+                );
+            }
+            else
+            {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        function showPosition(position)
+        {
+            console.log(position);
+            document.getElementById("location").innerHTML=
+            "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+        }
+
+        function showError(error)
+        {
+            switch(error.code)
+            {
+                case error.PERMISSION_DENIED:
+                    alert("User denied the request for Geolocation.");
+                    break;
+
+                case error.POSITION_UNAVAILABLE:
+                    alert("Location information is unavailable.");
+                    break;
+
+                case error.TIMEOUT:
+                    alert("The request to get user location timed out.");
+                    break;
+
+                case error.UNKNOWN_ERROR:
+                    alert("An unknown error occurred.");
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
