@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Music Fest 2026",
+    "category": "Music",
+    "date": "2026-06-20",
+    "seats": 50
+  },
+  {
+    "id": 2,
+    "name": "Rock Concert",
+    "category": "Music",
+    "date": "2026-07-10",
+    "seats": 40
+  },
+  {
+    "id": 3,
+    "name": "Workshop on Baking",
+    "category": "Workshop",
+    "date": "2026-06-25",
+    "seats": 30
+  },
+  {
+    "id": 4,
+    "name": "Coding Bootcamp",
+    "category": "Workshop",
+    "date": "2026-07-01",
+    "seats": 35
+  },
+  {
+    "id": 5,
+    "name": "Cricket Tournament",
+    "category": "Sports",
+    "date": "2026-07-15",
+    "seats": 80
+  },
+  {
+    "id": 6,
+    "name": "Football League",
+    "category": "Sports",
+    "date": "2026-08-01",
+    "seats": 100
+  },
+  {
+    "id": 7,
+    "name": "Art Exhibition",
+    "category": "Arts",
+    "date": "2026-06-28",
+    "seats": 25
+  },
+  {
+    "id": 8,
+    "name": "Photography Contest",
+    "category": "Arts",
+    "date": "2026-08-12",
+    "seats": 20
+  },
+  {
+    "id": 9,
+    "name": "Food Festival",
+    "category": "Food",
+    "date": "2026-09-05",
+    "seats": 60
+  },
+  {
+    "id": 10,
+    "name": "Startup Meetup",
+    "category": "Business",
+    "date": "2026-09-18",
+    "seats": 70
+  }
+]
